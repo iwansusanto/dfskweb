@@ -3,7 +3,7 @@
 @section('content') 
 
     <section class="bannerhome_section">
-        <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselIndicators" class="carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselIndicators" data-slide-to="1"></li>
@@ -12,20 +12,39 @@
                 <li data-target="#carouselIndicators" data-slide-to="4"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item">
-                    <img class="d-block w-100" src={{ asset( "images/banner/dfsk-3.jpg") }} alt="Third slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src={{ asset( "images/banner/dfsk-4.jpg") }} alt="Fourth slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src={{ asset( "images/banner/dfsk-5.jpg") }} alt="Five slide">
-                </div>
                 <div class="carousel-item active">
+                    <!--Mask color-->
+                    <div class="view">
+                        <!--Video source-->
+                        <video class="video-fluid w-100" autoplay loop muted>
+                              <source src={{ asset( "images/banner/dfsk-movie.mp4") }} type="video/mp4" />
+                            </video>
+                        <div class="mask rgba-indigo-light"></div>
+                    </div>
+
+                    <!--Caption-->
+                    <div class="carousel-caption">
+                        <div class="animated fadeInDown">
+                            <h3 class="h3-responsive">Light mask</h3>
+                            <p>First text</p>
+                        </div>
+                    </div>
+                    <!--Caption-->
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src={{ asset( "images/banner/dfsk-6.jpg") }} alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src={{ asset( "images/banner/dfsk-6.jpg") }} alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src={{ asset( "images/banner/dfsk-6.jpg") }} alt="Five slide">
+                </div>
+                <div class="carousel-item">
                     <img class="d-block w-100" src={{ asset( "images/banner/dfsk-6.jpg") }} alt="Six slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src={{ asset( "images/banner/dfsk-7.jpg") }} alt="Seven slide">
+                    <img class="d-block w-100" src={{ asset( "images/banner/dfsk-6.jpg") }} alt="Seven slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
@@ -39,7 +58,19 @@
         </div>
     </section>
 
-    <div class="container mt-5">
+    <div class="test-drive py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <h4>Temukan pengalaman berkendara dengan DFSK</h4>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="btn btn-danger text-uppercase">Book a test drive</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="inner mt-5">
         {{-- <div class="block-subtitle pt-4 pb-2">
             <h3>
                 <div class="subtitle-title">VEHICLES</div>
@@ -85,25 +116,21 @@
         <div class="carousel-item">
             <img class="d-block w-100" src={{ asset( "images/banner/dfsk-2.png") }} alt="Second slide">
         </div> --}}
-        <div class="row mt-4">
-            <div class="col-md-12">
-                <img src={{ asset( "images/banner/dfsk-1.png") }} class="img-fluid" alt="Promo Banner">
-            </div>
-            {{-- <div class="col-md-3">
-                <div class="card shortcut h-100">
-                    <div class="text-center pt-4">
-                        <i class="fa fa-car text-danger"></i>
-                    </div>
-                    <div class="card-body d-flex flex-column">
-                        <h4 class="card-title font-weight-bold text-center">BOOK A TEST DRIVE</h4>
-                        <p class="card-text">
-                            Hitung perkiraan ccicilan Anda.
-                        </p>
-                        <a href="#" class="btn btn-danger mt-auto">Start</a>
-                    </div>
+        <div id="carouselIndicatorsPromo" class="carousel slide mt-4" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselIndicatorsPromo" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselIndicatorsPromo" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src={{ asset( "images/banner/dfsk-1.png") }} class="img-responsive w-100" alt="Promo Banner" height="400px">
                 </div>
-            </div> --}}
+                <div class="carousel-item">
+                    <img src={{ asset( "images/banner/dfsk-2.png") }} class="img-responsive w-100" alt="Promo Banner" height="400px">
+                </div>
+            </div>
         </div>
+        
     </div>
     <div class="container mt-5">
         <div class="row mt-4">

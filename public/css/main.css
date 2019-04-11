@@ -82,9 +82,9 @@
 }
 
 /* Home */
-.bannerhome_section {
+/* .bannerhome_section {
     border-bottom: 5px solid #d90000;
-}
+} */
 .owl-nav button:focus {
     outline:0;
 }
@@ -143,6 +143,9 @@ ol.carousel-indicators li.active {
     position: absolute;
     left: 100%;
     width: 100%;  
+}
+.test-drive {
+    background-color: #f0f0f0;
 }
 
 /* Detail Car */
