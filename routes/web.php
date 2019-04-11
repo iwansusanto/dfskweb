@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.home');
+});
+Route::get('/cars/{slug}', function ($slug) {
+    return view('pages.carsdetail');
+});
+Route::get('/vehicles', function () {
+    return view('pages.home');
 });

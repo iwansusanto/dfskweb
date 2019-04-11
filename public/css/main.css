@@ -1,0 +1,242 @@
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+    display: flex;
+    justify-content: center;
+}
+.inner {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block-subtitle {
+    text-align: center;
+    position: relative;
+}
+.block-subtitle h3::before {
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid #d1d1d1;
+    height: 1px;
+    width: 180px;
+    bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.block-subtitle h3::after {
+    content: '';
+    position: absolute;
+    background: #d90000;
+    height: 5px;
+    width: 5px;
+    bottom: 0;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+}
+.subtitle-title {
+    font-size: 27px;
+}
+.subtitle-sub {
+    font-size: 16px;
+}
+.bg-main {
+    background-color: #ffffff!important;
+}
+.navbar-main .navbar-nav .active>.nav-link, .navbar-main .navbar-nav .nav-link.active, .navbar-main .navbar-nav .nav-link.show, .navbar-main .navbar-nav .show>.nav-link {
+    color: #000000;
+}
+.navbar-main li a {
+    color: #000000;
+}
+
+/* Header */
+.navbar-brand {
+    min-width: 215px;
+}
+.navbar-brand .logo-box {
+    position: absolute;
+    top: 0px;
+    background-color: #ffffff;
+    z-index: 1;
+}
+.collapseSupport {
+    position: absolute;
+    top: 0px;
+    left: 247px;
+    z-index: 1;
+    min-width: 260px;
+}
+.collapseSupport .card span {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+}
+.callsupportCollapse {
+    font-size: 25px;
+}
+
+/* Home */
+.bannerhome_section {
+    border-bottom: 5px solid #d90000;
+}
+.owl-nav button:focus {
+    outline:0;
+}
+ol.carousel-indicators li {
+    background-color: #ffffff;
+}
+ol.carousel-indicators li.active {
+    background-color: #d90000;
+}
+.owl-nav {
+    text-align: center;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    padding: 0px 10px !important;
+    font-size: 40px;
+}
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid #000000;
+}
+
+#owl-slide .item{
+  margin: 3px;
+}
+#owl-slide .item img{
+  display: block;
+  width: 100%;
+}
+.item img.owl-lazy {
+    max-width: 75%;
+    /* max-height: 300px; */
+}
+.owl-carousel .item p {
+    font-size: 17px;
+}
+.owl-carousel .item {
+    border-bottom: 2px solid transparent;
+}
+.owl-carousel .item:hover {
+    border-bottom: 2px solid #d90000;
+}
+.item a {
+    text-decoration: none;
+    color: #000000;
+}
+.shortcut h4 {
+    font-size: 20px;
+}
+.shortcut i {
+    font-size: 40px;
+}
+.hide-block {
+    position: absolute;
+    left: 100%;
+    width: 100%;  
+}
+
+/* Detail Car */
+.detailcar {
+    height: 1080px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    padding-top: 30%;
+}
+.wrapper-highlight {
+    padding-left: 5%;
+    background-color: #000;
+    color: #ffffff;
+    background: rgba(29,29,27, 0.7);
+}
+.list-gallery {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 6%;
+    font-size: 24px;
+    color: #ffffff;
+}
+.list-gallery::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(29,29,27,0.6);
+    z-index: 1;
+    transition: .3s;
+}
+.list-gallery span {
+    position: relative;
+    z-index: 1;
+}
+.title-highlight {
+    font-size:  0.8rem; /*1rem = 16px*/
+    margin-bottom: 0px !important;
+}
+.desc-highlight {
+    font-size:  0.5rem; /*1rem = 16px*/
+}
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  .title-highlight {font-size:1.5rem;} /*1rem = 16px*/
+  .desc-highlight {font-size:  0.8rem; /*1rem = 16px*/}
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  .title-highlight {font-size:2rem;} /*1rem = 16px*/
+  .desc-highlight {font-size:  1rem; /*1rem = 16px*/} 
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .title-highlight {font-size:2.5rem;} /*1rem = 16px*/
+  .desc-highlight {font-size:  1.2rem; /*1rem = 16px*/} 
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  .title-highlight {font-size:3rem;} /*1rem = 16px*/  
+  .desc-highlight {font-size:  1.5rem; /*1rem = 16px*/}  
+}
+
+/* Footer */
+.footer_section {
+    background-color: #555555;
+    color: #ffffff;
+    font-size: 13px;
+}
+.footer .nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer .nav-item a:hover {
+    color: #d90000;
+}
+.nav-item a.follow-dfsk {
+    color: #ffffff;
+    font-size: 18px;
+} 
+.nav-item a.follow-dfsk:hover {
+    color: #d90000;
+}
+.footer_wrapper .line {
+    border-color: #6f6f6f !important;
+}
+.copyright {
+    background-color: #000000;
+    font-weight: bold;
+    font-size: 12px;
+}
