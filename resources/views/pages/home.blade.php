@@ -3,7 +3,7 @@
 @section('content') 
 
     <section class="bannerhome_section">
-        <div id="carouselIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+        <div id="carouselIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
             <ol class="carousel-indicators">
                 <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselIndicators" data-slide-to="1"></li>
@@ -14,19 +14,19 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <!--Mask color-->
-                    <div class="view">
+                    <div class="view w-100">
                         <!--Video source-->
-                        <video class="video-fluid w-100" autoplay loop muted>
+                        <video class="video-fluid w-100 video-banner" autoplay loop muted>
                               <source src={{ asset( "images/banner/dfsk-movie.mp4") }} type="video/mp4" />
-                            </video>
+                        </video>
                         <div class="mask rgba-indigo-light"></div>
                     </div>
 
                     <!--Caption-->
                     <div class="carousel-caption">
                         <div class="animated fadeInDown">
-                            <h3 class="h3-responsive">Light mask</h3>
-                            <p>First text</p>
+                            <h3 class="h3-responsive">Glory 560</h3>
+                            <p>Enjoy this momment</p>
                         </div>
                     </div>
                     <!--Caption-->
@@ -62,7 +62,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10">
-                    <h4>Temukan pengalaman berkendara dengan DFSK</h4>
+                    <h3 class="font-weight-bold">Temukan pengalaman berkendara dengan DFSK</h3>
                 </div>
                 <div class="col-md-2">
                     <a href="#" class="btn btn-danger text-uppercase">Book a test drive</a>
@@ -103,6 +103,21 @@
         </section>
 
     </div>
+    <div class="mt-5">
+        <div class="our-tech parallax-window" data-parallax="scroll" data-image-src={{ asset('images/background/dfsk-4.jpg') }}>
+            <div class="h-100 justify-content-center d-flex align-items-center">
+                <div class="tech-content">
+                    <h3 class="text-uppercase text-center font-weight-bold">Our Technology</h3>
+                    <div class="d-flex align-items-center">
+                        <p class="w-50 text-center">
+                            Terus berevolusi adalah esensi DNA manusia. Kita butuh untuk terus memperbaiki hidup, dan terus menjadi lebih baik dari kondisi
+                            sekarang. Hal ini adalah salah satu alasan utama kita
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container mt-5">
         {{-- <div class="block-subtitle pt-4 pb-2">
             <h3>
@@ -123,10 +138,10 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src={{ asset( "images/banner/dfsk-1.png") }} class="img-responsive w-100" alt="Promo Banner" height="400px">
+                    <img src={{ asset( "images/promo/dfsk-1.png") }} class="img-responsive w-100" alt="Promo Banner" height="400px">
                 </div>
                 <div class="carousel-item">
-                    <img src={{ asset( "images/banner/dfsk-2.png") }} class="img-responsive w-100" alt="Promo Banner" height="400px">
+                    <img src={{ asset( "images/promo/dfsk-2.png") }} class="img-responsive w-100" alt="Promo Banner" height="400px">
                 </div>
             </div>
         </div>
@@ -195,13 +210,140 @@
         </div>
     </div>
     <div class="container mt-5">
+        <div class="my-4">
+            <!-- Grid row -->
+            <div class="row">
+            
+                <!-- Grid column -->
+                <div class="col-lg-5">
+            
+                    <!-- Featured image -->
+                    <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/q8uUkHdA7mw?rel=0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+            
+                </div>
+                <!-- Grid column -->
+            
+                <!-- Grid column -->
+                <div class="col-lg-7">
+            
+                    <!-- Category -->
+                    <a href="#!" class="article-link">
+                        <h6 class="font-weight-bold mb-3"><i class="fa fa-video-camera pr-2"></i>Video</h6>
+                    </a>
+                    <!-- Post title -->
+                    <h3 class="font-weight-bold mb-3"><strong>DFSK Luncurkan Glory 560 bagi Pasar yang Lebih Luas</strong></h3>
+                    <!-- Excerpt -->
+                    <p>DFSK baru saja memperkenalkan kendaraan terbarunya yaitu DFSK Glory 560 secara khusus kepada khalayak media. Sport Utility
+                    Vehicle (SUV) aktif yang segera diluncurkan di pasar otomotif Indonesia ini menawarkan desain atraktif guna mendukung kehidupan
+                    aktif dan bergairah, performa yang tangguh, fitur modern nan canggih dengan harga yang terjangkau.</p>
+                    <!-- Post data -->
+                    <p>by <a><strong>Admin</strong></a>, 19/02/2019</p>
+                    <!-- Read more button -->
+                    <a class="btn btn-danger btn-md text-white">Read more</a>
+            
+                </div>
+                <!-- Grid column -->
+            
+            </div>
+            <!-- Grid row -->
+            
+            <hr class="my-5">
+            
+            <!-- Grid row -->
+            <div class="row">
+            
+                <!-- Grid column -->
+                <div class="col-lg-7">
+            
+                    <!-- Category -->
+                    <a href="#!" class="article-link">
+                        <h6 class="font-weight-bold mb-3"><i class="fa fa-newspaper-o pr-2"></i>News</h6>
+                    </a>
+                    <!-- Post title -->
+                    <h3 class="font-weight-bold mb-3"><strong>DFSK bersama Kedutaan China Berpartisipasi dalam Acara International</strong></h3>
+                    <!-- Excerpt -->
+                    <p>Setiap 8 Maret diperingati sebagai Hari Perempuan Internasional (Women Day) di berbagai negara, termasuk dirayakan di Indonesia.
+                    Peringatan Hari Perempuan Internasional dirayakan sebagai bentuk pendekatan kepada masyarakat dan sosialiasi atas kesetaraan
+                    jender, dimana perempuan juga bisa berkarya dan memiliki kemampuan yang setara dengan pria.
+                    </p>
+                    <!-- Post data -->
+                    <p>by <a><strong>Admin</strong></a>, 14/02/2019</p>
+                    <!-- Read more button -->
+                    <a class="btn btn-danger btn-md text-white mb-4">Read more</a>
+            
+                </div>
+                <!-- Grid column -->
+            
+                <!-- Grid column -->
+                <div class="col-lg-5">
+            
+                    <!-- Featured image -->
+                    <div class="view overlay rounded z-depth-2">
+                        <img class="img-fluid" src={{ asset('images/article/2.jpg') }} alt="Sample image">
+                        <a>
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+            
+                </div>
+                <!-- Grid column -->
+            
+            </div>
+            <!-- Grid row -->
+            
+            <hr class="my-5">
+            <div class="row">
+            
+                <!-- Grid column -->
+                <div class="col-lg-5">
+            
+                    <!-- Featured image -->
+                    <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+                        <img class="img-fluid" src={{ asset('images/article/3.jpg') }} alt="Sample image">
+                        <a>
+                            <div class="mask rgba-white-slight"></div>
+                        </a>
+                    </div>
+            
+                </div>
+                <!-- Grid column -->
+            
+                <!-- Grid column -->
+                <div class="col-lg-7">
+            
+                    <!-- Category -->
+                    <a href="#!" class="article-link">
+                        <h6 class="font-weight-bold mb-3"><i class="fa fa-calendar pr-2"></i>Events</h6>
+                    </a>
+                    <!-- Post title -->
+                    <h3 class="font-weight-bold mb-3"><strong>DFSK Glory 580 Tetap Tawarkan SUV Kurang Dari dari Rp250 Juta</strong></h3>
+                    <!-- Excerpt -->
+                    <p>DFSK sebagai salah satu produsen mobil di Indonesia senantiasa terus memberikan produk-produk yang kompetitif, pelayanan
+                    yang terbaik, serta perlindungan yang menyeluruh bagi konsumen otomotif Indonesia. Bahkan DFSK juga terus memberikan kemudahan
+                    kepada konsumen di Indonesia untuk bisa mendapatkan kendaraan terbaik untuk digunakan sendiri maupun bersama keluarga.</p>
+                    <!-- Post data -->
+                    <p>by <a><strong>Admin</strong></a>, 11/08/2018</p>
+                    <!-- Read more button -->
+                    <a class="btn btn-danger btn-md text-white">Read more</a>
+            
+                </div>
+                <!-- Grid column -->
+            
+            </div>
+            <!-- Grid row -->
+        </div>
+        
         {{-- <div class="block-subtitle pt-4 pb-2">
             <h3>
                 <div class="subtitle-title">NEWS & VIDEO</div>
                 <div class="subtitle-sub pt-1 text-secondary">OUR ACTIVITY</div>
             </h3>
         </div> --}}
-        <div class="row my-4">
+        {{-- <div class="row my-4">
             <div class="col-md-6">
                     <div class="card h-100">
                         <div class="card-body px-0 py-0">
@@ -244,6 +386,6 @@
                 </ul>
             
             </div>
-        </div>
+        </div> --}}
     </div>
 @stop
