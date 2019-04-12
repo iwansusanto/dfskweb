@@ -1,6 +1,8 @@
 $(document).ready(function () {
     $('.carousel').carousel();
 
+    $('#carouselColorCar').carousel();
+
     $("#owl-slide").owlCarousel({
 
         autoplay: false,

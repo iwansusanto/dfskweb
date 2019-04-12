@@ -11,11 +11,35 @@
     </section>
 
     <section class="exterior mt-5">
-        <div class="block-subtitle pt-4 pb-2">
+        <div class="block-subtitle pt-4 pb-2 mb-4">
             <h3>
                 <div class="subtitle-title">EXTERIOR</div>
                 <div class="subtitle-sub pt-1 text-secondary">GLORY 580</div>
             </h3>
+        </div>
+        <div id="carouselColorCar" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselColorCar" data-slide-to="0" class="active" style="background-color: #ffffff"></li>
+                <li data-target="#carouselColorCar" data-slide-to="1" style="background-color: #d90000"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex align-items-center">
+                        <img class="d-block w-25" src={{ asset( "images/product/580/exterior/color_white.png") }} alt="Third slide">
+                    </div>
+                    <div class="text-uppercase d-flex align-items-center pt-4">
+                        White
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex align-items-center">
+                        <img class="d-block w-25" src={{ asset( "images/product/580/exterior/color_cherry.png") }} alt="Fourth slide">
+                    </div>
+                    <div class="text-uppercase d-flex align-items-center pt-4">
+                        Red
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
