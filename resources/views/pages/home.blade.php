@@ -305,7 +305,7 @@
             
                     <!-- Featured image -->
                     <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-                        <img class="img-fluid" src={{ asset('images/article/3.jpg') }} alt="Sample image">
+                        <img class="img-fluid" src={{ asset('images/article/1.jpg') }} alt="Sample image">
                         <a>
                             <div class="mask rgba-white-slight"></div>
                         </a>
