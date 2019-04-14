@@ -87,7 +87,7 @@
 </section>
 
 <!-- jQuery -->
-<script src="{{ asset('js/jquery/jquery-3.2.1.slim.min.js') }}"></script>
+<script src="{{ asset('js/jquery/jquery-3.2.1.min.js') }}"></script>
 
 <!-- Owl Carousel JS -->
 <script src="{{ asset('owlCarousel/dist/owl.carousel.min.js') }}"></script>

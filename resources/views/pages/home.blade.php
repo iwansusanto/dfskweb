@@ -96,6 +96,7 @@
     </div>
     <div class="mt-5">
         <div class="our-tech parallax-window" data-parallax="scroll" data-image-src={{ asset('images/background/dfsk-4.jpg') }}>
+        {{-- <div class="our-tech" style="background-attachment: fixed;background-image: url({{ asset('images/background/dfsk-4.jpg') }})">     --}}
             <div class="h-100 justify-content-center d-flex align-items-center">
                 <div class="tech-content">
                     <h3 class="text-uppercase text-center font-weight-bold">Our Technology</h3>
@@ -129,10 +130,10 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src={{ asset( "images/promo/dfsk-1.png") }} class="img-responsive w-100" alt="Promo Banner" height="400px">
+                    <img src={{ asset( "images/promo/dfsk-1.png") }} class="img-responsive w-100" alt="Promo Banner">
                 </div>
                 <div class="carousel-item">
-                    <img src={{ asset( "images/promo/dfsk-2.png") }} class="img-responsive w-100" alt="Promo Banner" height="400px">
+                    <img src={{ asset( "images/promo/dfsk-2.png") }} class="img-responsive w-100" alt="Promo Banner">
                 </div>
             </div>
         </div>

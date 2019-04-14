@@ -93,6 +93,16 @@ $(document).ready(function () {
                 top: 0
             })
         }
+
+        if ($(window).scrollTop() > (screenHeight/2)) {
+            $('.scroll_to_top').css({
+                display: 'block'
+            })
+        } else {
+            $('.scroll_to_top').css({
+                display: 'none'
+            })
+        }
     })
 
     $('.spec-various li').each(function(index, e) {
@@ -101,5 +111,9 @@ $(document).ready(function () {
             el.parent().find('li').removeClass('active');
             el.addClass('active');
         })
+    })
+
+    $('.scroll_to_top').on('click', function(){
+        $('html, body').animate({ scrollTop: $('#main').position().top }, 'slow');
     })
 });
