@@ -1,0 +1,28 @@
+/* Footer */
+.footer_section {
+    background-color: #555555;
+    color: #ffffff;
+    font-size: 13px;
+}
+.footer .nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer .nav-item a:hover {
+    color: #d90000;
+}
+.nav-item a.follow-dfsk {
+    color: #ffffff;
+    font-size: 18px;
+} 
+.nav-item a.follow-dfsk:hover {
+    color: #d90000;
+}
+.footer_wrapper .line {
+    border-color: #6f6f6f !important;
+}
+.copyright {
+    background-color: #000000;
+    font-weight: bold;
+    font-size: 12px;
+}

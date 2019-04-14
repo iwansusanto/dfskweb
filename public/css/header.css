@@ -1,0 +1,74 @@
+/* Header */
+.navbar-brand {
+    min-width: 215px;
+}
+.navbar-brand .logo-box {
+    position: absolute;
+    top: 0px;
+    background-color: #ffffff;
+    z-index: 1;
+}
+.collapseSupport {
+    position: absolute;
+    top: 0px;
+    left: 247px;
+    z-index: 1;
+    min-width: 260px;
+}
+.collapseSupport .card span {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+}
+.callsupportCollapse {
+    font-size: 25px;
+}
+.carousel-control-prev, .carousel-control-next {
+    display: none;
+}
+.menu-main {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    background-color: transparent;
+}
+.menu-main .navbar {
+    background-color: transparent !important;
+}
+.menu-main .navbar-nav li a {
+    border-width: 1px !important;
+    border-color: #ffffff !important;
+}
+.menu-main .navbar-nav li:last-child {
+    border-right: none;
+}
+.menu-main .navbar-nav li a:hover {
+    text-decoration: underline;
+}
+ul.megamenu li a {
+    font-size: 20px;
+}
+ul.megamenu li:hover > ul.megamenu-child {
+    display: block;
+}
+ul.megamenu li:last-child > ul.megamenu-child {
+    left: auto;
+    right: 0px;
+}
+ul.megamenu-child {
+    background: #ffffff url(../images/global/bgbg.png) repeat-x;
+    right: auto;
+    left: auto;
+    display: none;
+}
+ul.megamenu-child li {
+    cursor: pointer;
+    list-style-type: none;
+    border-color: #000000 !important;
+    border-width: 3px !important;
+}
+ul.megamenu-child li:hover {
+    border-color: #d90000 !important;
+}

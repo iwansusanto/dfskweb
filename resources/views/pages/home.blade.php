@@ -1,5 +1,10 @@
 @extends('layouts.default') 
 
+@section('homecss')
+    <link rel="stylesheet" href={{ asset( "css/home.css?v=".time()) }}>
+    <link rel="stylesheet" href={{ asset( "jarallax/dist/jarallax.css?v=".time()) }}>
+@stop
+
 @section('content') 
 
     <section class="bannerhome_section">
@@ -95,8 +100,8 @@
 
     </div>
     <div class="mt-5">
-        <div class="our-tech parallax-window" data-parallax="scroll" data-image-src={{ asset('images/background/dfsk-4.jpg') }}>
-        {{-- <div class="our-tech" style="background-attachment: fixed;background-image: url({{ asset('images/background/dfsk-4.jpg') }})">     --}}
+        {{-- <div class="our-tech parallax-window" data-parallax="scroll" data-image-src={{ asset('images/background/dfsk-4.jpg') }}>     --}}
+        <div class="our-tech jarallax" style="background-image: url({{ asset('images/background/dfsk-4.jpg') }})">    
             <div class="h-100 justify-content-center d-flex align-items-center">
                 <div class="tech-content">
                     <h3 class="text-uppercase text-center font-weight-bold">Our Technology</h3>
@@ -201,6 +206,11 @@
             </div>
         </div>
     </div>
+
+    <div class="mt-5">
+        <div class="jarallax video-background" data-jarallax-video="https://www.youtube.com/watch?v=2qGAjYrCPiU"></div>
+    </div>
+
     <div class="container mt-5">
         <div class="my-4">
             <!-- Grid row -->
@@ -380,4 +390,12 @@
             </div>
         </div> --}}
     </div>
+@stop
+
+@section('homejs')
+    <script src="{{ asset('jarallax/dist/jarallax.min.js') }}"></script>
+    <script src="{{ asset('jarallax/dist/jarallax-element.min.js') }}"></script>
+    <script src="{{ asset('jarallax/dist/jarallax-video.min.js') }}"></script>
+
+    <script src="{{ asset('js/home.js?v='.time()) }}"></script>
 @stop

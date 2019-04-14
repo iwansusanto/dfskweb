@@ -2,19 +2,19 @@
     <ul class="list-group list-group-horizontal row ml-0 spec-various">
         <li class="list-group-item col-md-3 text-center active mb-0 border-right-0">
             <h6 class="font-weight-bold">(1.5T) CVT</h6>
-            <span class="text-danger font-weight-bold">Rp. 308,000,000</span>
+            <span class="font-weight-bold">Rp. 308,000,000</span>
         </li>
         <li class="list-group-item col-md-3 text-center mb-0 border-right-0">
             <h6 class="font-weight-bold">Luxury (1.5T) 6MT</h6>
-            <span class="text-danger font-weight-bold">Rp. 295,000,000</span>
+            <span class="font-weight-bold">Rp. 295,000,000</span>
         </li>
         <li class="list-group-item col-md-3 text-center mb-0 border-right-0">
             <h6 class="font-weight-bold">Comfort (1.5T) CVT</h6>
-            <span class="text-danger font-weight-bold">Rp. 282,000,000</span>
+            <span class="font-weight-bold">Rp. 282,000,000</span>
         </li>
         <li class="list-group-item col-md-3 text-center rounded-0 mb-0">
             <h6 class="font-weight-bold">Comfort (1.8L) 5MT</h6>
-            <span class="text-danger font-weight-bold">Rp. 245,900,000</span>
+            <span class="font-weight-bold">Rp. 245,900,000</span>
         </li>
     </ul>
     <div class="accordion mt-4" id="accordionSpec">
