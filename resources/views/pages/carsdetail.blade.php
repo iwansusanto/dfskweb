@@ -117,10 +117,12 @@
     <section class="specification pt-5 position-relative bg-white">
         <div class="block-subtitle pt-4 pb-2">
             <h3>
-                <div class="subtitle-title">SPESIFICATION</div>
+                <div class="subtitle-title">SPESIFICATIONS</div>
                 <div class="subtitle-sub pt-1 text-secondary">GLORY 580</div>
             </h3>
         </div>
+
+        @include('pages.sectiondetail.spesification')
     </section>
     
     

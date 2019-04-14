@@ -304,6 +304,17 @@ ol.carousel-indicators li.active {
 #owl-slide-interior .item:hover {
     border: none;
 }
+ul.spec-various li.active {
+    background-color: #000000;
+    border: none;
+}
+.list-group-horizontal {
+    max-width: 100%;
+    flex-direction: row;
+}
+.list-group-horizontal li {
+    cursor: pointer;
+}
 /* .interior-slide .slider div {
     height: 800px;
 } */

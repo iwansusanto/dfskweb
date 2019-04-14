@@ -3,6 +3,8 @@ $(document).ready(function () {
 
     $('#carouselColorCar').carousel();
 
+    $('#carouselColorSpec').carousel();
+
     $("#owl-slide").owlCarousel({
 
         autoplay: false,
@@ -91,5 +93,13 @@ $(document).ready(function () {
                 top: 0
             })
         }
+    })
+
+    $('.spec-various li').each(function(index, e) {
+        var el = $(this);
+        el.on('click', function(){
+            el.parent().find('li').removeClass('active');
+            el.addClass('active');
+        })
     })
 });
