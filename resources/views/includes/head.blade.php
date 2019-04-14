@@ -12,5 +12,7 @@
 <!-- OwlCarousel CSS -->
 <link rel="stylesheet" href={{ asset( "owlCarousel/dist/assets/owl.carousel.min.css") }}>
 <link rel="stylesheet" href={{ asset( "owlCarousel/dist/assets/owl.theme.default.css") }}>
+<!-- BX Slider -->
+<link rel="stylesheet" href={{ asset( "bxslider/dist/jquery.bxslider.min.css") }}>
 
 <link rel="stylesheet" href={{ asset( "css/main.css?v=".time()) }}>

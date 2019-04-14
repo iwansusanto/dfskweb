@@ -21,11 +21,13 @@
             <ol class="carousel-indicators">
                 <li data-target="#carouselColorCar" data-slide-to="0" class="active" style="background-color: #ffffff"></li>
                 <li data-target="#carouselColorCar" data-slide-to="1" style="background-color: #d90000"></li>
+                <li data-target="#carouselColorCar" data-slide-to="2" style="background-color: #555555"></li>
+                <li data-target="#carouselColorCar" data-slide-to="3" style="background-color: #000000"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="d-flex align-items-center">
-                        <img class="d-block w-25" src={{ asset( "images/product/580/exterior/color_white.png") }} alt="Third slide">
+                        <img class="d-block w-25" src={{ asset( "images/product/580/color/white.png") }} alt="Third slide">
                     </div>
                     <div class="text-uppercase d-flex align-items-center pt-4">
                         White
@@ -33,7 +35,23 @@
                 </div>
                 <div class="carousel-item">
                     <div class="d-flex align-items-center">
-                        <img class="d-block w-25" src={{ asset( "images/product/580/exterior/color_cherry.png") }} alt="Fourth slide">
+                        <img class="d-block w-25" src={{ asset( "images/product/580/color/red.png") }} alt="Fourth slide">
+                    </div>
+                    <div class="text-uppercase d-flex align-items-center pt-4">
+                        Red
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex align-items-center">
+                        <img class="d-block w-25" src={{ asset( "images/product/580/color/grey.png") }} alt="Fourth slide">
+                    </div>
+                    <div class="text-uppercase d-flex align-items-center pt-4">
+                        Red
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex align-items-center">
+                        <img class="d-block w-25" src={{ asset( "images/product/580/color/black.png") }} alt="Fourth slide">
                     </div>
                     <div class="text-uppercase d-flex align-items-center pt-4">
                         Red
@@ -43,38 +61,60 @@
         </div>
     </section>
 
-    <section class="interior">
+    <div class="wrapeper_interior">
+        <section class="interior pt-5 bg-white">
+            <div class="block-subtitle pt-4 pb-2 mb-4">
+                <h3>
+                    <div class="subtitle-title">INTERIOR</div>
+                    <div class="subtitle-sub pt-1 text-secondary">GLORY 580</div>
+                </h3>
+            </div>
+        
+            <div class="interior-slide">
+                <div class="slider">
+                    <div class="d-flex align-items-center" style="background-size: cover;background-repeat: no-repeat; height: 836px;background-image: url({{ asset('images/product/580/interior/test.jpg') }})"></div>
+                    <div class="d-flex align-items-center" style="background-size: cover;background-repeat: no-repeat; height: 836px;background-image: url({{ asset('images/product/580/interior/test-1.jpg') }})"></div>
+                    <div class="d-flex align-items-center" style="background-size: cover;background-repeat: no-repeat; height: 836px;background-image: url({{ asset('images/product/580/interior/test-2.jpg') }})"></div>
+                    <div class="d-flex align-items-center" style="background-size: cover;background-repeat: no-repeat; height: 836px;background-image: url({{ asset('images/product/580/interior/test-3.jpg') }})"></div>
+                    <div class="d-flex align-items-center" style="background-size: cover;background-repeat: no-repeat; height: 836px;background-image: url({{ asset('images/product/580/interior/test-4.jpg') }})"></div>
+                    <div class="d-flex align-items-center" style="background-size: cover;background-repeat: no-repeat; height: 836px;background-image: url({{ asset('images/product/580/interior/test-5.jpg') }})"></div>
+                    <div class="d-flex align-items-center" style="background-size: cover;background-repeat: no-repeat; height: 836px;background-image: url({{ asset('images/product/580/interior/test-6.jpg') }})"></div>
+                    <div class="d-flex align-items-center" style="background-size: cover;background-repeat: no-repeat; height: 836px;background-image: url({{ asset('images/product/580/interior/test-7.jpg') }})"></div>
+                    {{-- <img class="" src={{ asset( "images/product/580/interior/1.jpg") }} alt="Owl Image">
+                    <img class="" src={{ asset( "images/product/580/interior/2.1.jpg") }} alt="Owl Image"> --}}
+                </div>
+            </div>
+        
+        </section>
+    </div>
 
-    </section>
-
-    <section class="gallery mt-5">
+    <section class="gallery pt-5 position-relative bg-white">
         <div class="block-subtitle pt-4 pb-2">
             <h3>
                 <div class="subtitle-title">GALLERY</div>
                 <div class="subtitle-sub pt-1 text-secondary">GLORY 580</div>
             </h3>
         </div>
-        <div class="row text-center pt-4">
-            <div 
-                class="col-md-3 list-gallery border text-uppercase font-weight-bold"
-                style="background-image: url({{ asset('images/carsdetail/dfsk-detailcars-560.jpg') }})">
-                <span>Exterior</span>
-            </div>
-            <div 
-                class="col-md-3 list-gallery border text-uppercase font-weight-bold"
-                style="background-image: url({{ asset('images/carsdetail/dfsk-detailcars-560.jpg') }})">
-                <span>Interior</span>
-            </div>
-            <div class="col-md-3 list-gallery border text-uppercase font-weight-bold" style="background-image: url({{ asset('images/carsdetail/dfsk-detailcars-560.jpg') }})">
-                <span>Video</span>
-            </div>
-            <div class="col-md-3 list-gallery border text-uppercase font-weight-bold" style="background-image: url({{ asset('images/carsdetail/dfsk-detailcars-560.jpg') }})">
-                <span>Catalog</span>
+        <div class="container-fluid">
+            <div class="row text-center pt-4">
+                <div class="col-md-3 list-gallery border text-uppercase font-weight-bold" style="background-image: url({{ asset('images/carsdetail/dfsk-detailcars-560.jpg') }})">
+                    <span>Exterior</span>
+                </div>
+                <div class="col-md-3 list-gallery border text-uppercase font-weight-bold" style="background-image: url({{ asset('images/carsdetail/dfsk-detailcars-560.jpg') }})">
+                    <span>Interior</span>
+                </div>
+                <div class="col-md-3 list-gallery border text-uppercase font-weight-bold" style="background-image: url({{ asset('images/carsdetail/dfsk-detailcars-560.jpg') }})">
+                    <span>Video</span>
+                </div>
+                <div class="col-md-3 list-gallery border text-uppercase font-weight-bold" style="background-image: url({{ asset('images/carsdetail/dfsk-detailcars-560.jpg') }})">
+                    <span>Catalog</span>
+                </div>
             </div>
         </div>
+        
     </section>
 
-    <section class="specification mt-5">
+    <section class="specification pt-5 position-relative bg-white">
         <div class="block-subtitle pt-4 pb-2">
             <h3>
                 <div class="subtitle-title">SPESIFICATION</div>

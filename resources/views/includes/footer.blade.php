@@ -1,4 +1,4 @@
-<section class="footer_section">
+<section class="footer_section position-relative">
     <div>
         <div class="inner pt-4">
             <div class="row py-4">
@@ -11,21 +11,17 @@
                 <div class="col-md-6 footer_wrapper">
                     <h6 class="text-center">ABOUT US</h6>
                     <div class="row">
-                        <div class="col-md-6 border-top border-bottom py-2 line">
+                        <div class="col-md-12  py-2 line">
                             <ul class="nav flex-column footer">
                                 <li class="nav-item text-center">
-                                    <a href="#">Super Cub</a>
+                                    <a href="#">Glory 560</a>
                                 </li>
                                 <li class="nav-item text-center">
                                     <a href="#">Glory 580</a>
                                 </li>
                                 <li class="nav-item text-center">
-                                    <a href="#">Glory 560</a>
+                                    <a href="#">Super Cub</a>
                                 </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6 border-top border-bottom py-2 line">
-                            <ul class="nav flex-column footer">
                                 <li class="nav-item text-center">
                                     <a href="#">Terms & Conditions</a>
                                 </li>
@@ -34,6 +30,16 @@
                                 </li>
                             </ul>
                         </div>
+                        {{-- <div class="col-md-6 border-top border-bottom py-2 line">
+                            <ul class="nav flex-column footer">
+                                <li class="nav-item text-center">
+                                    <a href="#">Terms & Conditions</a>
+                                </li>
+                                <li class="nav-item text-center">
+                                    <a href="#">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div> --}}
                     </div>
                     <div class="row">
                         <ul class="nav justify-content-center w-100">
@@ -88,6 +94,9 @@
 
 <!-- Paralax -->
 <script src="{{ asset('js/parallax.js-1.5.0/parallax.min.js') }}"></script>
+
+<!-- BX Slider -->
+<script src="{{ asset('bxslider/dist/jquery.bxslider.min.js') }}"></script>
 
 <!-- Bootstrap JS -->
 <script src="{{ asset('js/bootstrap/4.0.0/bootstrap.min.js') }}"></script>

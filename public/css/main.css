@@ -83,6 +83,52 @@
 .carousel-control-prev, .carousel-control-next {
     display: none;
 }
+.menu-main {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    background-color: transparent;
+}
+.menu-main .navbar {
+    background-color: transparent !important;
+}
+.menu-main .navbar-nav li a {
+    border-width: 2px !important;
+    border-color: #ffffff !important;
+}
+.menu-main .navbar-nav li:last-child {
+    border-right: none;
+}
+.menu-main .navbar-nav li a:hover {
+    text-decoration: underline;
+}
+ul.megamenu li a {
+    font-size: 20px;
+}
+ul.megamenu li:hover > ul.megamenu-child {
+    display: block;
+}
+ul.megamenu li:last-child > ul.megamenu-child {
+    left: auto;
+    right: 0px;
+}
+ul.megamenu-child {
+    background: #ffffff url(../images/global/bgbg.png) repeat-x;
+    right: auto;
+    left: auto;
+    display: none;
+}
+ul.megamenu-child li {
+    cursor: pointer;
+    list-style-type: none;
+    border-color: #000000 !important;
+    border-width: 3px !important;
+}
+ul.megamenu-child li:hover {
+    border-color: #d90000 !important;
+}
 
 /* Home */
 .bannerhome_section {
@@ -181,11 +227,12 @@ ol.carousel-indicators li.active {
 
 /* Detail Car */
 .detailcar {
-    height: 840px;
+    height: 100%;
     background-repeat: no-repeat;
-    background-size: 100%;
     position: relative;
     padding-top: 30%;
+    background-size: cover;
+    padding-bottom: 15%;
 }
 .wrapper-highlight {
     padding-left: 5%;
@@ -224,12 +271,13 @@ ol.carousel-indicators li.active {
     font-size:  0.5rem; /*1rem = 16px*/
 }
 #carouselColorCar {
-    padding-bottom: 90px;
+    padding-bottom: 50px;
+    z-index: 0;
 }
 #carouselColorCar .carousel-indicators li {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
     cursor: pointer;
     border: 2px solid #000000;
 }
@@ -241,32 +289,93 @@ ol.carousel-indicators li.active {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url(../images/global/check_slider.png) no-repeat center;
+    background: url(../images/global/check_slider-small.png) no-repeat center;
     display: block;
     top: 0px;
 }
+#owl-slide-interior .item img{
+  display: block;
+  width: 100%;
+}
+#owl-slide-interior .item img.owl-lazy {
+    max-width: 100%;
+    height: 800px;
+}
+#owl-slide-interior .item:hover {
+    border: none;
+}
+/* .interior-slide .slider div {
+    height: 800px;
+} */
+/* .wrapeper_interior {
+    height: 1200px;
+} */
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
   .title-highlight {font-size:1.5rem;} /*1rem = 16px*/
   .desc-highlight {font-size:  0.8rem; /*1rem = 16px*/}
+  #carouselColorCar .carousel-indicators li {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+    }
+    #carouselColorCar {
+        padding-bottom: 50px;
+    }
+    #carouselColorCar .carousel-indicators li.active::before {
+        background: url(../images/global/check_slider-small.png) no-repeat center;
+    } 
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
-  .title-highlight {font-size:2rem;} /*1rem = 16px*/
-  .desc-highlight {font-size:  1rem; /*1rem = 16px*/} 
+.title-highlight {font-size:2rem;} /*1rem = 16px*/
+.desc-highlight {font-size:  1rem; /*1rem = 16px*/} 
+#carouselColorCar .carousel-indicators li {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}  
+#carouselColorCar {
+    padding-bottom: 60px;
+}
+#carouselColorCar .carousel-indicators li.active::before {
+    background: url(../images/global/check_slider-small.png) no-repeat center;
+} 
 }
  
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-  .title-highlight {font-size:2.5rem;} /*1rem = 16px*/
-  .desc-highlight {font-size:  1.2rem; /*1rem = 16px*/} 
+.title-highlight {font-size:2.5rem;} /*1rem = 16px*/
+.desc-highlight {font-size:  1.2rem; /*1rem = 16px*/} 
+#carouselColorCar .carousel-indicators li {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+#carouselColorCar {
+    padding-bottom: 70px;
+}
+#carouselColorCar .carousel-indicators li.active::before {
+    background: url(../images/global/check_slider-medium.png) no-repeat center;
+} 
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-  .title-highlight {font-size:3rem;} /*1rem = 16px*/  
-  .desc-highlight {font-size:  1.5rem; /*1rem = 16px*/}  
+.title-highlight {font-size:3rem;} /*1rem = 16px*/  
+.desc-highlight {font-size:  1.5rem; /*1rem = 16px*/}  
+#carouselColorCar .carousel-indicators li {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+#carouselColorCar {
+    padding-bottom: 90px;
+}
+#carouselColorCar .carousel-indicators li.active::before {
+    background: url(../images/global/check_slider.png) no-repeat center;
+}   
 }
 
 /* Footer */

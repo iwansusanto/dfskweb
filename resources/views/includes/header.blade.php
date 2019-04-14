@@ -55,7 +55,7 @@
                             </a>
             </li>
         </ul>
-        <ul class="navbar-nav ml-auto">
+        {{-- <ul class="navbar-nav ml-auto">
             <li class="nav-item">
                 <a class="nav-link" href="#">ABOUT US</a>
             </li>
@@ -71,8 +71,70 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">CAREERS</a>
             </li>
-        </ul>
+        </ul> --}}
     </div>
 </nav>
+
+<div class="menu-main">
+    <nav class="navbar navbar-expand-md navbar-main bg-main">
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse position-relative" id="navbarNavCollapse">
+            <ul class="navbar-nav ml-auto position-relative megamenu">
+                <li class="nav-item">
+                    <a class="nav-link text-white border-right px-4" href="#">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white border-right px-4" href="#">VEHICLES</a>
+                    <ul class="position-absolute megamenu-child py-4">
+                        <li class="border-left pl-4 mb-4">
+                            <div class="row">
+                                <div class="col-md-6 my-auto">
+                                    <h6 class="font-weight-bold text-uppercase">Glory 580</h6>
+                                    <span class="text-danger font-weight-bold">Start from Rp. 245,900,000</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="w-50" src={{ asset( '/images/product/580/default.png') }} alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="border-left pl-4 mb-4">
+                            <div class="row">
+                                <div class="col-md-6 my-auto">
+                                    <h6 class="font-weight-bold text-uppercase">Glory 560</h6>
+                                    <span class="text-danger font-weight-bold">Start from Rp. 245,900,000</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="w-50" src={{ asset( '/images/product/580/color/red.png') }} alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="border-left pl-4">
+                            <div class="row">
+                                <div class="col-md-6 my-auto">
+                                    <h6 class="font-weight-bold text-uppercase">Super Cab</h6>
+                                    <span class="text-danger font-weight-bold">Start from Rp. 245,900,000</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="w-50" src={{ asset( '/images/product/supercab/default.png') }} alt="">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white border-right px-4" href="#">SERVICES</a>
+                    
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white border-right px-4" href="#">NEWS & EVENTS</a>
+                </li>
+                <li class="nav-item px-4">
+                    <a class="nav-link text-white" href="#">CAREERS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
 
 

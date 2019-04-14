@@ -21,15 +21,6 @@
                         </video>
                         <div class="mask rgba-indigo-light"></div>
                     </div>
-
-                    <!--Caption-->
-                    <div class="carousel-caption">
-                        <div class="animated fadeInDown">
-                            <h3 class="h3-responsive">Glory 560</h3>
-                            <p>Enjoy this momment</p>
-                        </div>
-                    </div>
-                    <!--Caption-->
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src={{ asset( "images/banner/dfsk-6.jpg") }} alt="Third slide">
@@ -82,20 +73,20 @@
         
                 <div class="item">
                     <a href={{ url('/cars/glory-580') }}>
-                        <img class="owl-lazy" data-src={{ asset( "images/itemslide/thumb-dfsk-1.png") }} alt="Owl Image">
+                        <img class="owl-lazy" data-src={{ asset( "images/itemslide/thumb-560.png") }} alt="Owl Image">
                         <p class="text-center pt-2 font-weight-bold">Glory 560</p>
                     </a>
                     
                 </div>
                 <div class="item">
                     <a href={{ url('/cars/glory-580') }}>
-                        <img class="owl-lazy" data-src={{ asset( "images/itemslide/thumb-dfsk-1.png") }} alt="Owl Image">
+                        <img class="owl-lazy" data-src={{ asset( "images/itemslide/thumb-580.png") }} alt="Owl Image">
                         <p class="text-center pt-2 font-weight-bold">Glory 580</p>
                     </a>
                 </div>
                 <div class="item">
                     <a href={{ url('/cars/glory-580') }}>
-                        <img class="owl-lazy" data-src={{ asset( "images/itemslide/thumb-dfsk-1.png") }} alt="Owl Image">
+                        <img class="owl-lazy" data-src={{ asset( "images/itemslide/thumb-supercab.png") }} alt="Owl Image">
                         <p class="text-center pt-2 font-weight-bold">Super Cub</p>
                     </a>
                 </div>
