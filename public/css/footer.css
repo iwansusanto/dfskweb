@@ -26,3 +26,51 @@
     font-weight: bold;
     font-size: 12px;
 }
+.footer-list .text-left {
+    text-align: center !important;
+}
+.footer-list .text-right {
+    text-align: center !important;
+}
+.footer_contacts {
+    bottom: 0;
+    color: #fff;
+    z-index: 100010;
+    font-size: 16px;
+    line-height: 18px;
+    opacity: 0.9;
+    border-top-left-radius: 0.5rem !important;
+    border-top-right-radius: 0.5rem !important;
+}
+.footer_contacts a {
+    cursor: pointer;
+}
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+   .footer-list .text-left {
+        text-align: center !important;
+    }
+    .footer-list .text-right {
+        text-align: center !important;
+    }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    .footer-list .text-left {
+        text-align: left !important;
+    }
+    .footer-list .text-right {
+        text-align: right !important;
+    }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+}

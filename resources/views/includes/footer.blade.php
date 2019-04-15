@@ -1,7 +1,7 @@
 <section class="footer_section position-relative">
     <div>
         <div class="inner pt-4">
-            <div class="row py-4">
+            <div class="row py-4 footer-list">
                 <div class="col-md-3 text-left">
                     <h6>PT SOKONINDO AUTOMOBILE</h6>
                     <p>
@@ -83,7 +83,17 @@
     <div class="copyright">
         <p class="text-center mb-0 py-2">Copyright © 2019 PT Sokonindo Automobile. All Rights Reserved.</p>
     </div>
-    
+    <div class="footer_contacts position-fixed w-100 bg-dark rounded-top d-block d-md-none">
+        <div class="row px-4">
+            <div class="col-2 py-3 border-right text-center">
+                <a href="#" class="text-white">
+                    <i class="fa fa-chevron-up"></i>
+                </a>
+            </div>
+            <div class="col-10 py-3 text-center">Contact Information</div>
+        </div>
+        
+    </div>
 </section>
 
 <!-- jQuery -->

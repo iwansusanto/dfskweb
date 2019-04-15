@@ -88,7 +88,7 @@
                                             <span class="text-danger font-weight-bold">Start from Rp. 245,900,000</span>
                                         </td>
                                         <td class="float-right text-right border-0">
-                                            <img class="w-50" src={{ asset( '/images/product/580/color/red.png') }} alt="">
+                                            <img class="w-50" src={{ asset( '/images/product/560/default.png') }} alt="">
                                         </td>
                                     </tr>
                                 </tbody>
