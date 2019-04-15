@@ -31,7 +31,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="d-flex align-items-center">
-                        <img class="d-block w-25" src={{ asset( "images/product/580/color/white.png") }} alt="Third slide">
+                        <img class="d-block car-color" src={{ asset( "images/product/580/color/white.png") }} alt="Third slide">
                     </div>
                     <div class="text-uppercase d-flex align-items-center pt-4">
                         White
@@ -39,7 +39,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="d-flex align-items-center">
-                        <img class="d-block w-25" src={{ asset( "images/product/580/color/red.png") }} alt="Fourth slide">
+                        <img class="d-block car-color" src={{ asset( "images/product/580/color/red.png") }} alt="Fourth slide">
                     </div>
                     <div class="text-uppercase d-flex align-items-center pt-4">
                         Red
@@ -47,7 +47,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="d-flex align-items-center">
-                        <img class="d-block w-25" src={{ asset( "images/product/580/color/grey.png") }} alt="Fourth slide">
+                        <img class="d-block car-color" src={{ asset( "images/product/580/color/grey.png") }} alt="Fourth slide">
                     </div>
                     <div class="text-uppercase d-flex align-items-center pt-4">
                         Red
@@ -55,7 +55,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="d-flex align-items-center">
-                        <img class="d-block w-25" src={{ asset( "images/product/580/color/black.png") }} alt="Fourth slide">
+                        <img class="d-block car-color" src={{ asset( "images/product/580/color/black.png") }} alt="Fourth slide">
                     </div>
                     <div class="text-uppercase d-flex align-items-center pt-4">
                         Red

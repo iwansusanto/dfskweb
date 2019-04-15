@@ -88,6 +88,9 @@ ul.spec-various li.active {
 .list-group-horizontal li {
     cursor: pointer;
 }
+.car-color {
+    width: 50% !important;
+}
 /* .interior-slide .slider div {
     height: 800px;
 } */
@@ -113,19 +116,22 @@ ul.spec-various li.active {
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
-.title-highlight {font-size:2rem;} /*1rem = 16px*/
-.desc-highlight {font-size:  1rem; /*1rem = 16px*/} 
-#carouselColorCar .carousel-indicators li {
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-}  
-#carouselColorCar {
-    padding-bottom: 60px;
-}
-#carouselColorCar .carousel-indicators li.active::before {
-    background: url(../images/global/check_slider-small.png) no-repeat center;
-} 
+    .title-highlight {font-size:2rem;} /*1rem = 16px*/
+    .desc-highlight {font-size:  1rem; /*1rem = 16px*/} 
+    #carouselColorCar .carousel-indicators li {
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+    }  
+    #carouselColorCar {
+        padding-bottom: 60px;
+    }
+    #carouselColorCar .carousel-indicators li.active::before {
+        background: url(../images/global/check_slider-small.png) no-repeat center;
+    } 
+    .car-color {
+        width: 50% !important;
+    }
 }
  
 /* Large devices (desktops, 992px and up) */
@@ -147,17 +153,20 @@ ul.spec-various li.active {
  
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-.title-highlight {font-size:3rem;} /*1rem = 16px*/  
-.desc-highlight {font-size:  1.5rem; /*1rem = 16px*/}  
-#carouselColorCar .carousel-indicators li {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
-}
-#carouselColorCar {
-    padding-bottom: 90px;
-}
-#carouselColorCar .carousel-indicators li.active::before {
-    background: url(../images/global/check_slider.png) no-repeat center;
-}   
+    .title-highlight {font-size:3rem;} /*1rem = 16px*/  
+    .desc-highlight {font-size:  1.5rem; /*1rem = 16px*/}  
+    #carouselColorCar .carousel-indicators li {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+    }
+    #carouselColorCar {
+        padding-bottom: 90px;
+    }
+    #carouselColorCar .carousel-indicators li.active::before {
+        background: url(../images/global/check_slider.png) no-repeat center;
+    }  
+    .car-color {
+        width: 25% !important;
+    } 
 }

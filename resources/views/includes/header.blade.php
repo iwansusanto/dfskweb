@@ -22,8 +22,8 @@
     </button>
 
     <!-- Navbar links -->
-    <div class="collapse navbar-collapse" id="navbarNavCollapse">
-        <ul class="navbar-nav mr-auto">
+    <div class="collapse navbar-collapse overlay w-100 position-absolute bg-white mobile-menu" id="navbarNavCollapse">
+        <ul class="navbar-nav mr-auto px-3">
             <li class="nav-item active">
                 <a class="nav-link" 
                     data-toggle="collapse" 
@@ -55,7 +55,7 @@
                             </a>
             </li>
         </ul>
-        <ul class="navbar-nav ml-auto d-lg-none">
+        <ul class="navbar-nav ml-auto d-lg-none px-3">
             <li class="nav-item">
                 <a class="nav-link" href="#">ABOUT US</a>
             </li>
