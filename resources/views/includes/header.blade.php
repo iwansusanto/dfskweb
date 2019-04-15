@@ -55,7 +55,7 @@
                             </a>
             </li>
         </ul>
-        {{-- <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto">
             <li class="nav-item">
                 <a class="nav-link" href="#">ABOUT US</a>
             </li>
@@ -71,7 +71,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">CAREERS</a>
             </li>
-        </ul> --}}
+        </ul>
     </div>
 </nav>
 
