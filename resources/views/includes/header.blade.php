@@ -55,7 +55,7 @@
                             </a>
             </li>
         </ul>
-        <ul class="navbar-nav ml-auto d-md-none">
+        <ul class="navbar-nav ml-auto d-lg-none">
             <li class="nav-item">
                 <a class="nav-link" href="#">ABOUT US</a>
             </li>
