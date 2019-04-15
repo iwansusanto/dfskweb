@@ -16,3 +16,10 @@
 <link rel="stylesheet" href={{ asset( "bxslider/dist/jquery.bxslider.min.css") }}>
 
 <link rel="stylesheet" href={{ asset( "css/main.css?v=".time()) }}>
+
+<link rel="stylesheet" href={{ asset( "css/header.css?v=".time()) }}>
+
+<link rel="stylesheet" href={{ asset( "css/footer.css?v=".time()) }}>
+
+@yield('homecss') 
+@yield('cardetailcss')

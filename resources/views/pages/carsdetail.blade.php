@@ -1,5 +1,9 @@
 @extends('layouts.default')
 
+@section('cardetailcss')
+    <link rel="stylesheet" href={{ asset( "css/cardetail.css?v=".time()) }}> 
+@stop
+
 @section('content')
     <section class="bannerdetail">
         <div class="detailcar" style="background-image: url({{ asset('images/carsdetail/dfsk-detailcars-560.jpg') }})">
@@ -126,4 +130,8 @@
     </section>
     
     
+@stop
+
+@section('cardetailjs')
+    <script src="{{ asset('js/cardetail.js?v='.time()) }}"></script>
 @stop

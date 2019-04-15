@@ -101,5 +101,7 @@
 <!-- Bootstrap JS -->
 <script src="{{ asset('js/bootstrap/4.0.0/bootstrap.min.js') }}"></script>
 
-
 <script src={{ asset('js/main.js?v='.time()) }}></script>
+
+@yield('homejs')
+@yield('cardetailjs')
