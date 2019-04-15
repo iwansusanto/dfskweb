@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-md navbar-main bg-main">
+<nav class="navbar navbar-expand-lg navbar-main bg-main">
     <!-- Brand -->
     <a class="navbar-brand" href={{ url('/') }}>
-        <div class="logo-box py-4 px-2 d-none d-xl-block">
+        <div class="logo-box py-4 px-2 d-none d-lg-block">
             <img id="logo" alt="Logo" src={{ asset( 'images/global/logo-dfsk.png') }} width="215" height="185">
         </div>
         <div class="d-none d-md-block">
@@ -55,7 +55,7 @@
                             </a>
             </li>
         </ul>
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto d-md-none">
             <li class="nav-item">
                 <a class="nav-link" href="#">ABOUT US</a>
             </li>
@@ -75,7 +75,7 @@
     </div>
 </nav>
 
-<div class="menu-main">
+<div class="menu-main d-none d-lg-block">
     <nav class="navbar navbar-expand-md navbar-main bg-main">
         <!-- Navbar links -->
         <div class="collapse navbar-collapse position-relative" id="navbarNavCollapse">
