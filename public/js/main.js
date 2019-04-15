@@ -14,6 +14,17 @@ $(document).ready(function () {
         }
     })
 
+    $('.mobile-list-menu').find('li').each(function(index, e) {
+        var el = $(this);
+        el.on('click', function(){
+            if(el.find('.collapse').hasClass('show')) {
+                el.find('a').children().removeClass('fa-chevron-up').addClass('fa-chevron-down');
+            } else {
+                el.find('a').children().removeClass('fa-chevron-down').addClass('fa-chevron-up');
+            }
+        })
+    })
+
     $('.scroll_to_top').on('click', function(){
         $('html, body').animate({ scrollTop: $('#main').position().top }, 'slow');
     })

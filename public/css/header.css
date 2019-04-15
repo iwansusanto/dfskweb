@@ -76,7 +76,7 @@ ul.megamenu-child li:hover {
     border-top: 1px solid #cecece;
     margin-top: 10px;
 }
-.mobile-list-menu li:hover {
+.mobile-list-menu li:hover > a {
     text-decoration: underline;
 }
 .mobile-list-menu li a {
@@ -90,6 +90,19 @@ ul.megamenu-child li:hover {
 }
 .menu-aside {
     background-color: #d6deeb;
+}
+.menuMobileList {
+    list-style-type: none;
+    border-top: none !important;
+}
+.menuMobileList li {
+    border-color: #000000 !important;
+    border-width: 3px !important; 
+    cursor: pointer;
+}
+.menuMobileList li:hover {
+    text-decoration: none !important;
+    border-color: #d90000 !important;
 }
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  

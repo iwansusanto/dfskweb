@@ -58,10 +58,59 @@
                 <a class="nav-link font-weight-bold" href="#">ABOUT US</a>
             </li>
             <li class="nav-item border-bottom py-1">
-                <a class="nav-link font-weight-bold" href="#">
+                <a class="nav-link font-weight-bold" data-toggle="collapse" href="#collapseMenuMobile" role="button" aria-expanded="false" aria-controls="collapseMenuMobile">
                     VEHICLES
                     <i class="fa fa-chevron-down float-right"></i>
                 </a>
+                <div class="collapse" id="collapseMenuMobile">
+                    <ul class="menuMobileList py-4 px-0">
+                        <li class="border-left pl-4 mb-4">
+                            <table class="table table-borderless">
+                                <tbody>
+                                    <tr>
+                                        <td class="align-middle border-0">
+                                            <h6 class="font-weight-bold text-uppercase">Glory 580</h6>
+                                            <span class="text-danger font-weight-bold">Start from Rp. 245,900,000</span>
+                                        </td>
+                                        <td class="float-right text-right border-0">
+                                            <img class="w-50" src={{ asset( '/images/product/580/default.png') }} alt="">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </li>
+                        <li class="border-left pl-4 mb-4">
+                            <table class="table table-borderless">
+                                <tbody>
+                                    <tr>
+                                        <td class="align-middle border-0">
+                                            <h6 class="font-weight-bold text-uppercase">Glory 560</h6>
+                                            <span class="text-danger font-weight-bold">Start from Rp. 245,900,000</span>
+                                        </td>
+                                        <td class="float-right text-right border-0">
+                                            <img class="w-50" src={{ asset( '/images/product/580/color/red.png') }} alt="">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </li>
+                        <li class="border-left pl-4">
+                            <table class="table table-borderless">
+                                <tbody>
+                                    <tr>
+                                        <td class="align-middle border-0">
+                                            <h6 class="font-weight-bold text-uppercase">Super Cab</h6>
+                                            <span class="text-danger font-weight-bold">Start from Rp. 245,900,000</span>
+                                        </td>
+                                        <td class="float-right text-right border-0">
+                                            <img class="w-50" src={{ asset( '/images/product/supercab/default.png') }} alt="">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </li>
+                    </ul>
+                </div>
             </li>
             <li class="nav-item border-bottom py-1">
                 <a class="nav-link font-weight-bold" href="#">SERVICES</a>
