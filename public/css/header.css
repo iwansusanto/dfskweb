@@ -72,21 +72,46 @@ ul.megamenu-child li {
 ul.megamenu-child li:hover {
     border-color: #d90000 !important;
 }
-
+.mobile-menu ul:first-child {
+    border-top: 1px solid #cecece;
+    margin-top: 10px;
+}
+.mobile-list-menu li:hover {
+    text-decoration: underline;
+}
+.mobile-list-menu li a {
+    font-size: 20px;
+}
+.btn-menu-mobile i, .mobile-list-menu li i {
+    font-size: 36px;
+}
+.mobile-list-menu li i {
+    color: #9f9f9f;
+}
+.menu-aside {
+    background-color: #d6deeb;
+}
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
-
+    .mobile-list-menu li a {
+        font-size: 20px;
+    }
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
-    
+    .mobile-list-menu li a {
+        font-size: 24px;
+    }
 }
  
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     ul.megamenu li a {
         font-size: 16px;
+    }
+    .mobile-menu ul:first-child {
+        border-top: none;
     }
 }
  
@@ -95,4 +120,5 @@ ul.megamenu-child li:hover {
     ul.megamenu li a {
         font-size: 20px;
     }
+    
 }

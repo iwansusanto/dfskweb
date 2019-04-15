@@ -4,14 +4,14 @@
         <div class="logo-box py-4 px-2 d-none d-lg-block">
             <img id="logo" alt="Logo" src={{ asset( 'images/global/logo-dfsk.png') }} width="215" height="185">
         </div>
-        <div class="d-none d-md-block">
+        <div class="d-lg-none .d-md-block">
             <img id="logo" alt="Logo" src={{ asset( 'images/global/logo-dfsk.png') }} width="40" height="30">
         </div>
     </a>
 
     <!-- Toggler/collapsibe Button -->
     <button 
-        class="navbar-toggler" 
+        class="navbar-toggler btn-menu-mobile" 
         type="button" 
         data-toggle="collapse" 
         data-target="#navbarNavCollapse" 
@@ -21,10 +21,10 @@
         <i class="fa fa-bars"></i>
     </button>
 
-    <!-- Navbar links -->
+    <!-- Navbar links For Mobile-->
     <div class="collapse navbar-collapse overlay w-100 position-absolute bg-white mobile-menu" id="navbarNavCollapse">
         <ul class="navbar-nav mr-auto px-3">
-            <li class="nav-item active">
+            <li class="nav-item active d-none d-lg-block">
                 <a class="nav-link" 
                     data-toggle="collapse" 
                     href="#collapseSupport" 
@@ -45,32 +45,60 @@
                 </div>    
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="#" class="nav-link float-left mr-2">
                     <img src={{ asset( 'images/global/lang-in.png') }} alt="Indonesia">
                 </a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                                <img src={{ asset( 'images/global/lang-en.png') }} alt="Indonesia">
-                            </a>
+                <a href="#" class="nav-link float-left">
+                    <img src={{ asset( 'images/global/lang-en.png') }} alt="Indonesia">
+                </a>
             </li>
         </ul>
-        <ul class="navbar-nav ml-auto d-lg-none px-3">
-            <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT US</a>
+        <ul class="navbar-nav ml-auto d-lg-none px-3 mobile-list-menu">
+            <li class="nav-item border-bottom py-1">
+                <a class="nav-link font-weight-bold" href="#">ABOUT US</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">VEHICLES</a>
+            <li class="nav-item border-bottom py-1">
+                <a class="nav-link font-weight-bold" href="#">
+                    VEHICLES
+                    <i class="fa fa-chevron-down float-right"></i>
+                </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
+            <li class="nav-item border-bottom py-1">
+                <a class="nav-link font-weight-bold" href="#">SERVICES</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">NEWS & EVENTS</a>
+            <li class="nav-item border-bottom py-1">
+                <a class="nav-link font-weight-bold" href="#">NEWS & EVENTS</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">CAREERS</a>
+            <li class="nav-item border-bottom py-1">
+                <a class="nav-link font-weight-bold" href="#">CAREERS</a>
             </li>
+        </ul>
+        <ul class="navbar-nav ml-auto d-lg-none px-3 menu-aside">
+            <li class="nav-item py-3">
+                <a href="#" class="text-uppercase font-weight-bold">
+                    <i class="fa fa-car pr-2"></i>
+                    Book a test drive
+                </a>
+            </li>
+            <li class="nav-item py-3">
+                <a href="#" class="text-uppercase font-weight-bold">
+                    <i class="fa fa-handshake-o pr-2"></i>
+                    Become a dealer
+                </a>
+            </li>
+            <li class="nav-item py-3">
+                <a href="#" class="text-uppercase font-weight-bold">
+                    <i class="fa fa-wrench pr-2"></i>
+                    Book a service
+                </a>
+            </li>
+            <li class="nav-item py-3">
+                <a href="#" class="text-uppercase font-weight-bold">
+                    <i class="fa fa-envelope-o pr-2"></i>
+                    Contact us
+                </a>
+            </li>
+
         </ul>
     </div>
 </nav>

@@ -57,11 +57,11 @@
     <div class="test-drive py-3">
         <div class="container">
             <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-8">
                     <h3 class="font-weight-bold">Temukan pengalaman berkendara dengan DFSK</h3>
                 </div>
-                <div class="col-md-2">
-                    <a href="#" class="btn btn-danger text-uppercase">Book a test drive</a>
+                <div class="col-md-4 text-right">
+                    <a href="#" class="btn btn-danger text-uppercase w-100">Book a test drive</a>
                 </div>
             </div>
         </div>

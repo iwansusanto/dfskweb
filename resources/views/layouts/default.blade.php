@@ -11,7 +11,7 @@
         <a class="scroll_to_top" href="#main" rel="nofollow" style="display: none;"></a>
 
         <!-- Fixed Short Cut Menu -->
-        <div class="fixed-menu fixed r0">
+        <div class="fixed-menu">
             <div class="fixed-menu__item">
                 <a href="#" class="fixed-menu__link bg-dark">
                     <span class="fixed-menu__link-icon text-white"><i class="fa fa-car"></i></span>
