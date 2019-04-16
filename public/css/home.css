@@ -67,7 +67,7 @@ ol.carousel-indicators li.active {
 .our-tech {
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 720px;
+    height: 420px;
     position: relative;
     color: #ffffff;
 }
@@ -114,6 +114,9 @@ ol.carousel-indicators li.active {
     .test-drive .inner .row > .label-test-drive {
         padding-left: 10%;
     }
+    .our-tech {
+        height: 520px;
+    }
 }
  
 /* Large devices (desktops, 992px and up) */
@@ -123,6 +126,9 @@ ol.carousel-indicators li.active {
         background-size: 15% 90%;
         height: auto;
     }
+    .our-tech {
+        height: 620px;
+    }
 }   
  
 /* Extra large devices (large desktops, 1200px and up) */
@@ -131,5 +137,8 @@ ol.carousel-indicators li.active {
         background-image: url('../images/global/dfskweb-testdrive.png');
         background-size: 20% 100%;
         height: 150px;
+    }
+    .our-tech {
+        height: 720px;
     }
 }
