@@ -55,13 +55,13 @@
         </div>
     </section>
 
-    <div class="test-drive py-3">
-        <div class="container">
+    <div class="test-drive py-0">
+        <div class="inner">
             <div class="row">
-                <div class="col-md-8">
-                    <h3 class="font-weight-bold">Temukan pengalaman berkendara dengan DFSK</h3>
+                <div class="col-md-8 text-center my-auto py-3 label-test-drive">
+                    <h3 class="font-weight-bold">Temukan pengalaman <br/> berkendara dengan DFSK</h3>
                 </div>
-                <div class="col-md-4 text-right">
+                <div class="col-md-4 text-right my-auto py-3">
                     <a href="#" class="btn btn-danger text-uppercase w-100">Book a test drive</a>
                 </div>
             </div>
@@ -112,11 +112,14 @@
                             sekarang. Hal ini adalah salah satu alasan utama kita
                         </p>
                     </div>
+                    <div class="center-right w-25 mx-auto">
+                        <a href="#" class="btn btn-danger w-100">Learn More</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container mt-5">
+    <div class="container-fluid mt-0 pr-0 pl-0">
         {{-- <div class="block-subtitle pt-4 pb-2">
             <h3>
                 <div class="subtitle-title">PROMO</div>
@@ -129,7 +132,7 @@
         <div class="carousel-item">
             <img class="d-block w-100" src={{ asset( "images/banner/dfsk-2.png") }} alt="Second slide">
         </div> --}}
-        <div id="carouselIndicatorsPromo" class="carousel slide mt-4" data-ride="carousel">
+        <div id="carouselIndicatorsPromo" class="carousel slide mt-0" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselIndicatorsPromo" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselIndicatorsPromo" data-slide-to="1"></li>
