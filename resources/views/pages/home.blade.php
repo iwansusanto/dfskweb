@@ -135,10 +135,10 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src={{ asset( "images/promo/dfsk-1.png") }} class="img-responsive w-100" alt="Promo Banner">
+                    <img src={{ asset( "images/promo/promo-1.jpeg") }} class="img-responsive w-100" alt="Promo Banner">
                 </div>
                 <div class="carousel-item">
-                    <img src={{ asset( "images/promo/dfsk-2.png") }} class="img-responsive w-100" alt="Promo Banner">
+                    <img src={{ asset( "images/promo/promo-2.jpeg") }} class="img-responsive w-100" alt="Promo Banner">
                 </div>
             </div>
         </div>
