@@ -21,7 +21,7 @@
                     <!--Mask color-->
                     <div class="view w-100">
                         <!--Video source-->
-                        <video class="video-fluid w-100 video-banner" autoplay loop muted>
+                        <video class="video-fluid w-100 video-banner" autoplay loop muted preload>
                               <source src={{ asset( "images/banner/dfsk-movie.mp4") }} type="video/mp4" />
                               <source src={{ asset( "images/banner/dfsk-movie.webm") }} type="video/webm" />
                         </video>
