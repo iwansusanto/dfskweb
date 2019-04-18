@@ -131,7 +131,7 @@ ul.megamenu-child li:hover {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     ul.megamenu li a {
-        font-size: 20px;
+        font-size: 18px;
     }
     
 }

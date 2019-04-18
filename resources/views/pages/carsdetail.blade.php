@@ -1,6 +1,7 @@
 @extends('layouts.default')
 
 @section('cardetailcss')
+    <link rel="stylesheet" href={{ asset( "fancybox/dist/jquery.fancybox.min.css") }}>
     <link rel="stylesheet" href={{ asset( "css/cardetail.css?v=".time()) }}> 
 @stop
 
@@ -99,23 +100,7 @@
                 <div class="subtitle-sub pt-1 text-secondary">GLORY 580</div>
             </h3>
         </div>
-        <div class="container-fluid">
-            <div class="row text-center pt-4">
-                <div class="col-md-3 list-gallery border text-uppercase font-weight-bold" style="background-image: url({{ asset('images/carsdetail/dfsk-detailcars-560.jpg') }})">
-                    <span>Exterior</span>
-                </div>
-                <div class="col-md-3 list-gallery border text-uppercase font-weight-bold" style="background-image: url({{ asset('images/carsdetail/dfsk-detailcars-560.jpg') }})">
-                    <span>Interior</span>
-                </div>
-                <div class="col-md-3 list-gallery border text-uppercase font-weight-bold" style="background-image: url({{ asset('images/carsdetail/dfsk-detailcars-560.jpg') }})">
-                    <span>Video</span>
-                </div>
-                <div class="col-md-3 list-gallery border text-uppercase font-weight-bold" style="background-image: url({{ asset('images/carsdetail/dfsk-detailcars-560.jpg') }})">
-                    <span>Catalog</span>
-                </div>
-            </div>
-        </div>
-        
+        @include('pages.sectiondetail.gallery')
     </section>
 
     <section class="specification pt-5 position-relative bg-white">
@@ -125,7 +110,6 @@
                 <div class="subtitle-sub pt-1 text-secondary">GLORY 580</div>
             </h3>
         </div>
-
         @include('pages.sectiondetail.spesification')
     </section>
     
@@ -133,5 +117,6 @@
 @stop
 
 @section('cardetailjs')
+    <script src="{{ asset('fancybox/dist/jquery.fancybox.min.js') }}"></script>
     <script src="{{ asset('js/cardetail.js?v='.time()) }}"></script>
 @stop

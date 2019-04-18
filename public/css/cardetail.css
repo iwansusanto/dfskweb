@@ -15,10 +15,9 @@
 }
 .list-gallery {
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     padding: 6%;
-    font-size: 24px;
-    color: #ffffff;
+    color: #ffffff !important;
     cursor: pointer;
 }
 .list-gallery::before {
@@ -35,6 +34,10 @@
 .list-gallery span {
     position: relative;
     z-index: 1;
+}
+.list-gallery:hover > span {
+    color: #ffffff;
+    text-decoration: underline;
 }
 .title-highlight {
     font-size:  0.8rem; /*1rem = 16px*/
@@ -91,6 +94,24 @@ ul.spec-various li.active {
 .car-color {
     width: 50% !important;
 }
+.list-gallery span {
+    font-size: 12px;
+}
+.gallery-image {
+    background-size: cover;
+    cursor: pointer;
+    width: 25%;
+    border: 4px solid #ffffff;
+    height: 50px;
+}
+.gallery-image a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.list-gallery-image .exterior, .list-gallery-image .interior {
+    display: none;
+}
 /* .interior-slide .slider div {
     height: 800px;
 } */
@@ -112,6 +133,9 @@ ul.spec-various li.active {
     #carouselColorCar .carousel-indicators li.active::before {
         background: url(../images/global/check_slider-small.png) no-repeat center;
     } 
+    .gallery-image {
+        height: 100px;
+    }
 }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
@@ -132,23 +156,29 @@ ul.spec-various li.active {
     .car-color {
         width: 50% !important;
     }
+    .gallery-image {
+        height: 150px;
+    }
 }
  
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-.title-highlight {font-size:2.5rem;} /*1rem = 16px*/
-.desc-highlight {font-size:  1.2rem; /*1rem = 16px*/} 
-#carouselColorCar .carousel-indicators li {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-}
-#carouselColorCar {
-    padding-bottom: 70px;
-}
-#carouselColorCar .carousel-indicators li.active::before {
-    background: url(../images/global/check_slider-medium.png) no-repeat center;
-} 
+    .title-highlight {font-size:2.5rem;} /*1rem = 16px*/
+    .desc-highlight {font-size:  1.2rem; /*1rem = 16px*/} 
+    #carouselColorCar .carousel-indicators li {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    #carouselColorCar {
+        padding-bottom: 70px;
+    }
+    #carouselColorCar .carousel-indicators li.active::before {
+        background: url(../images/global/check_slider-medium.png) no-repeat center;
+    } 
+    .gallery-image {
+        height: 200px;
+    }
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
@@ -169,4 +199,10 @@ ul.spec-various li.active {
     .car-color {
         width: 25% !important;
     } 
+    .list-gallery span {
+        font-size: 24px;
+    }
+    .gallery-image {
+        height: 255px;
+    }
 }

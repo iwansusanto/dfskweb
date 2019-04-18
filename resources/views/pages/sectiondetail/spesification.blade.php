@@ -23,7 +23,7 @@
                 General Specifications
             </a>
         
-            <div id="collapseGeneralSpec" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionSpec">
+            <div id="collapseGeneralSpec" class="collapse" aria-labelledby="headingOne">
                     <table class="table table-spec mb-0">
                         <tbody>
                             <tr>

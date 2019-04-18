@@ -13,11 +13,9 @@
                 <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselIndicators" data-slide-to="3"></li>
-                <li data-target="#carouselIndicators" data-slide-to="4"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                {{-- <div class="carousel-item active">
                     <!--Mask color-->
                     <div class="view w-100">
                         <!--Video source-->
@@ -27,21 +25,15 @@
                         </video>
                         <div class="mask rgba-indigo-light"></div>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src={{ asset( "images/banner/dfsk-6.jpg") }} alt="Third slide">
+                </div> --}}
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src={{ asset( "images/banner/dfsk-3.jpg") }} alt="Third slide">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src={{ asset( "images/banner/dfsk-6.jpg") }} alt="Fourth slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src={{ asset( "images/banner/dfsk-6.jpg") }} alt="Five slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src={{ asset( "images/banner/dfsk-6.jpg") }} alt="Six slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src={{ asset( "images/banner/dfsk-6.jpg") }} alt="Seven slide">
+                    <img class="d-block w-100" src={{ asset( "images/banner/dfsk-7.jpg") }} alt="Five slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
@@ -67,15 +59,34 @@
             </div>
         </div>
     </div>
-    <div class="inner mt-5">
+    <div class="mt-0">
         {{-- <div class="block-subtitle pt-4 pb-2">
             <h3>
                 <div class="subtitle-title">VEHICLES</div>
                 <div class="subtitle-sub pt-1 text-secondary">TOP OF VEHICLES</div>
             </h3>
         </div> --}}
-        <section class="slideitem_section pt-4">
-            <div id="owl-slide" class="owl-carousel">
+        <section class="slideitem_section pt-0">
+            <div id="carouselIndicatorsProduct" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselIndicatorsProduct" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselIndicatorsProduct" data-slide-to="1"></li>
+                    <li data-target="#carouselIndicatorsProduct" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src={{ asset( "images/itemslide/glorry-560.png") }} alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src={{ asset( "images/itemslide/glorry-580.png") }} alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src={{ asset( "images/itemslide/supercub.png") }} alt="Third slide">
+                    </div>
+                </div>
+            </div>
+            
+            {{-- <div id="owl-slide" class="owl-carousel">
         
                 <div class="item">
                     <a href={{ url('/cars/glory-580') }}>
@@ -96,13 +107,13 @@
                         <p class="text-center pt-2 font-weight-bold">Super Cub</p>
                     </a>
                 </div>
-            </div>
+            </div> --}}
         </section>
 
     </div>
-    <div class="mt-5">
+    <div class="mt-0">
         {{-- <div class="our-tech parallax-window" data-parallax="scroll" data-image-src={{ asset('images/background/dfsk-4.jpg') }}>     --}}
-        <div class="our-tech jarallax" style="background-image: url({{ asset('images/background/dfsk-4.jpg') }})">    
+        <div class="our-tech jarallax" style="background-image: url({{ asset('images/background/factory.png') }})">    
             <div class="h-100 justify-content-center d-flex align-items-center">
                 <div class="tech-content">
                     <h3 class="text-uppercase text-center font-weight-bold">Our Technology</h3>

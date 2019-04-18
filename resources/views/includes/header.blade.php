@@ -2,7 +2,7 @@
     <!-- Brand -->
     <a class="navbar-brand" href={{ url('/') }}>
         <div class="logo-box py-4 px-2 d-none d-lg-block">
-            <img id="logo" alt="Logo" src={{ asset( 'images/global/logo-dfsk.png') }} width="215" height="185">
+            <img id="logo" alt="Logo" src={{ asset( 'images/global/logo-dfsk.png') }} width="150" height="140">
         </div>
         <div class="d-lg-none .d-md-block">
             <img id="logo" alt="Logo" src={{ asset( 'images/global/logo-dfsk.png') }} width="40" height="30">

@@ -98,6 +98,9 @@ ol.carousel-indicators li.active {
     background-position: left center;
     background-repeat: no-repeat; 
 }
+.label-test-drive h3 {
+    font-size: 24px !important;
+}
 
 /* Small devices (landscape phones, 544px and up) */
 @media (min-width: 544px) {  
@@ -107,8 +110,9 @@ ol.carousel-indicators li.active {
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
     .test-drive .inner .row {
-        background-image: url('../images/global/dfskweb-testdrive.png');
-        background-size: 15% 85%;
+        background-image: url('../images/global/dfsk-agnes.png');
+        /* background-size: 150 150; */
+        background-size: contain;
         height: auto;
     }
     .test-drive .inner .row > .label-test-drive {
@@ -117,13 +121,18 @@ ol.carousel-indicators li.active {
     .our-tech {
         height: 520px;
     }
+    .label-test-drive h3 {
+        font-size: 26px !important;
+    }
 }
  
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     .test-drive .inner .row {
-        background-image: url('../images/global/dfskweb-testdrive.png');
-        background-size: 15% 90%;
+        background-image: url('../images/global/dfsk-agnes.png');
+        background-size: contain;
+        /* background-position: left left; */
+        /* background-repeat: no-repeat; */
         height: auto;
     }
     .our-tech {
@@ -134,11 +143,15 @@ ol.carousel-indicators li.active {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     .test-drive .inner .row {
-        background-image: url('../images/global/dfskweb-testdrive.png');
-        background-size: 20% 100%;
+        background-image: url('../images/global/dfsk-agnes.png');
+        background-size: contain;
+        /* background-size: 20% 100%; */
         height: 150px;
     }
     .our-tech {
         height: 720px;
+    }
+    .label-test-drive h3 {
+        font-size: 1.75rem !important;
     }
 }

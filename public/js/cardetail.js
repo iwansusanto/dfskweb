@@ -46,4 +46,19 @@ $(document).ready(function () {
         }
     })
 
+    $('.list-gallery').each(function(index, e) {
+        var el = $(this);
+        var rel = el.data('rel');
+
+        el.on('click', function(){
+            // console.log('rel :', rel);
+            el.parent().siblings('.list-gallery-image').find('.content-gallery-image').hide();
+            el.parent().siblings('.list-gallery-image').find('.' + rel).show();
+        })
+    })
+
+    $('[data-fancybox="gallery"]').fancybox({
+        buttons: ['close'],
+    });
+
 });
